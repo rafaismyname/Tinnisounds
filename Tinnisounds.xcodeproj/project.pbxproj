@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53A2E44518C9172C0084CC23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A2E44418C9172C0084CC23 /* Foundation.framework */; };
+		53A2E44718C9172C0084CC23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A2E44618C9172C0084CC23 /* CoreGraphics.framework */; };
+		53A2E44918C9172C0084CC23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A2E44818C9172C0084CC23 /* UIKit.framework */; };
+		53A2E44F18C9172C0084CC23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E44D18C9172C0084CC23 /* InfoPlist.strings */; };
+		53A2E45118C9172C0084CC23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A2E45018C9172C0084CC23 /* main.m */; };
+		53A2E45518C9172C0084CC23 /* TNSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A2E45418C9172C0084CC23 /* TNSAppDelegate.m */; };
+		53A2E45818C9172C0084CC23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E45618C9172C0084CC23 /* Main.storyboard */; };
+		53A2E45B18C9172C0084CC23 /* TNSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A2E45A18C9172C0084CC23 /* TNSViewController.m */; };
+		53A2E45D18C9172C0084CC23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E45C18C9172C0084CC23 /* Images.xcassets */; };
+		53A2E46418C9172C0084CC23 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A2E46318C9172C0084CC23 /* XCTest.framework */; };
+		53A2E46518C9172C0084CC23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A2E44418C9172C0084CC23 /* Foundation.framework */; };
+		53A2E46618C9172C0084CC23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A2E44818C9172C0084CC23 /* UIKit.framework */; };
+		53A2E46E18C9172C0084CC23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E46C18C9172C0084CC23 /* InfoPlist.strings */; };
+		53A2E47018C9172C0084CC23 /* TinnisoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A2E46F18C9172C0084CC23 /* TinnisoundsTests.m */; };
+		53A2E47B18C91DBB0084CC23 /* Thunderstorm_with_heavy_Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E47A18C91DBB0084CC23 /* Thunderstorm_with_heavy_Rain.mp3 */; };
+		53A2E47D18C922170084CC23 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A2E47C18C922170084CC23 /* AVFoundation.framework */; };
+		53A2E47F18C9FB830084CC23 /* cafe_brazil_walla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E47E18C9FB830084CC23 /* cafe_brazil_walla.mp3 */; };
+		53A2E48118CA04360084CC23 /* whiteNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E48018CA04360084CC23 /* whiteNoise.mp3 */; };
+		53A2E48318CA11480084CC23 /* henne_beach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E48218CA11480084CC23 /* henne_beach.mp3 */; };
+		53A2E48618CA13160084CC23 /* antony_creek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E48418CA13160084CC23 /* antony_creek.mp3 */; };
+		53A2E48718CA13160084CC23 /* fireplace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53A2E48518CA13160084CC23 /* fireplace.mp3 */; };
+		53A2E48918CA70130084CC23 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A2E48818CA70130084CC23 /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53A2E46718C9172C0084CC23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53A2E43918C9172C0084CC23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53A2E44018C9172C0084CC23;
+			remoteInfo = Tinnisounds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53A2E44118C9172C0084CC23 /* Tinnisounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinnisounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A2E44418C9172C0084CC23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53A2E44618C9172C0084CC23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53A2E44818C9172C0084CC23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53A2E44C18C9172C0084CC23 /* Tinnisounds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tinnisounds-Info.plist"; sourceTree = "<group>"; };
+		53A2E44E18C9172C0084CC23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53A2E45018C9172C0084CC23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53A2E45218C9172C0084CC23 /* Tinnisounds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tinnisounds-Prefix.pch"; sourceTree = "<group>"; };
+		53A2E45318C9172C0084CC23 /* TNSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNSAppDelegate.h; sourceTree = "<group>"; };
+		53A2E45418C9172C0084CC23 /* TNSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNSAppDelegate.m; sourceTree = "<group>"; };
+		53A2E45718C9172C0084CC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53A2E45918C9172C0084CC23 /* TNSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNSViewController.h; sourceTree = "<group>"; };
+		53A2E45A18C9172C0084CC23 /* TNSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNSViewController.m; sourceTree = "<group>"; };
+		53A2E45C18C9172C0084CC23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53A2E46218C9172C0084CC23 /* TinnisoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinnisoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A2E46318C9172C0084CC23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53A2E46B18C9172C0084CC23 /* TinnisoundsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinnisoundsTests-Info.plist"; sourceTree = "<group>"; };
+		53A2E46D18C9172C0084CC23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53A2E46F18C9172C0084CC23 /* TinnisoundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinnisoundsTests.m; sourceTree = "<group>"; };
+		53A2E47A18C91DBB0084CC23 /* Thunderstorm_with_heavy_Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thunderstorm_with_heavy_Rain.mp3; sourceTree = "<group>"; };
+		53A2E47C18C922170084CC23 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		53A2E47E18C9FB830084CC23 /* cafe_brazil_walla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cafe_brazil_walla.mp3; path = Tinnisounds/cafe_brazil_walla.mp3; sourceTree = SOURCE_ROOT; };
+		53A2E48018CA04360084CC23 /* whiteNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whiteNoise.mp3; sourceTree = "<group>"; };
+		53A2E48218CA11480084CC23 /* henne_beach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = henne_beach.mp3; sourceTree = "<group>"; };
+		53A2E48418CA13160084CC23 /* antony_creek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = antony_creek.mp3; sourceTree = "<group>"; };
+		53A2E48518CA13160084CC23 /* fireplace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fireplace.mp3; sourceTree = "<group>"; };
+		53A2E48818CA70130084CC23 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53A2E43E18C9172C0084CC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A2E48918CA70130084CC23 /* iAd.framework in Frameworks */,
+				53A2E47D18C922170084CC23 /* AVFoundation.framework in Frameworks */,
+				53A2E44718C9172C0084CC23 /* CoreGraphics.framework in Frameworks */,
+				53A2E44918C9172C0084CC23 /* UIKit.framework in Frameworks */,
+				53A2E44518C9172C0084CC23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A2E45F18C9172C0084CC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A2E46418C9172C0084CC23 /* XCTest.framework in Frameworks */,
+				53A2E46618C9172C0084CC23 /* UIKit.framework in Frameworks */,
+				53A2E46518C9172C0084CC23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53A2E43818C9172C0084CC23 = {
+			isa = PBXGroup;
+			children = (
+				53A2E44A18C9172C0084CC23 /* Tinnisounds */,
+				53A2E46918C9172C0084CC23 /* TinnisoundsTests */,
+				53A2E44318C9172C0084CC23 /* Frameworks */,
+				53A2E44218C9172C0084CC23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53A2E44218C9172C0084CC23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53A2E44118C9172C0084CC23 /* Tinnisounds.app */,
+				53A2E46218C9172C0084CC23 /* TinnisoundsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53A2E44318C9172C0084CC23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53A2E48818CA70130084CC23 /* iAd.framework */,
+				53A2E47C18C922170084CC23 /* AVFoundation.framework */,
+				53A2E44418C9172C0084CC23 /* Foundation.framework */,
+				53A2E44618C9172C0084CC23 /* CoreGraphics.framework */,
+				53A2E44818C9172C0084CC23 /* UIKit.framework */,
+				53A2E46318C9172C0084CC23 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53A2E44A18C9172C0084CC23 /* Tinnisounds */ = {
+			isa = PBXGroup;
+			children = (
+				53A2E45318C9172C0084CC23 /* TNSAppDelegate.h */,
+				53A2E45418C9172C0084CC23 /* TNSAppDelegate.m */,
+				53A2E45618C9172C0084CC23 /* Main.storyboard */,
+				53A2E45918C9172C0084CC23 /* TNSViewController.h */,
+				53A2E45A18C9172C0084CC23 /* TNSViewController.m */,
+				53A2E45C18C9172C0084CC23 /* Images.xcassets */,
+				53A2E44B18C9172C0084CC23 /* Supporting Files */,
+			);
+			path = Tinnisounds;
+			sourceTree = "<group>";
+		};
+		53A2E44B18C9172C0084CC23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53A2E47918C91D920084CC23 /* Sounds */,
+				53A2E44C18C9172C0084CC23 /* Tinnisounds-Info.plist */,
+				53A2E44D18C9172C0084CC23 /* InfoPlist.strings */,
+				53A2E45018C9172C0084CC23 /* main.m */,
+				53A2E45218C9172C0084CC23 /* Tinnisounds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53A2E46918C9172C0084CC23 /* TinnisoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				53A2E46F18C9172C0084CC23 /* TinnisoundsTests.m */,
+				53A2E46A18C9172C0084CC23 /* Supporting Files */,
+			);
+			path = TinnisoundsTests;
+			sourceTree = "<group>";
+		};
+		53A2E46A18C9172C0084CC23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53A2E46B18C9172C0084CC23 /* TinnisoundsTests-Info.plist */,
+				53A2E46C18C9172C0084CC23 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53A2E47918C91D920084CC23 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				53A2E48418CA13160084CC23 /* antony_creek.mp3 */,
+				53A2E48518CA13160084CC23 /* fireplace.mp3 */,
+				53A2E48218CA11480084CC23 /* henne_beach.mp3 */,
+				53A2E48018CA04360084CC23 /* whiteNoise.mp3 */,
+				53A2E47E18C9FB830084CC23 /* cafe_brazil_walla.mp3 */,
+				53A2E47A18C91DBB0084CC23 /* Thunderstorm_with_heavy_Rain.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53A2E44018C9172C0084CC23 /* Tinnisounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53A2E47318C9172C0084CC23 /* Build configuration list for PBXNativeTarget "Tinnisounds" */;
+			buildPhases = (
+				53A2E43D18C9172C0084CC23 /* Sources */,
+				53A2E43E18C9172C0084CC23 /* Frameworks */,
+				53A2E43F18C9172C0084CC23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tinnisounds;
+			productName = Tinnisounds;
+			productReference = 53A2E44118C9172C0084CC23 /* Tinnisounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53A2E46118C9172C0084CC23 /* TinnisoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53A2E47618C9172C0084CC23 /* Build configuration list for PBXNativeTarget "TinnisoundsTests" */;
+			buildPhases = (
+				53A2E45E18C9172C0084CC23 /* Sources */,
+				53A2E45F18C9172C0084CC23 /* Frameworks */,
+				53A2E46018C9172C0084CC23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53A2E46818C9172C0084CC23 /* PBXTargetDependency */,
+			);
+			name = TinnisoundsTests;
+			productName = TinnisoundsTests;
+			productReference = 53A2E46218C9172C0084CC23 /* TinnisoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53A2E43918C9172C0084CC23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rafael Amorim";
+				TargetAttributes = {
+					53A2E44018C9172C0084CC23 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					53A2E46118C9172C0084CC23 = {
+						TestTargetID = 53A2E44018C9172C0084CC23;
+					};
+				};
+			};
+			buildConfigurationList = 53A2E43C18C9172C0084CC23 /* Build configuration list for PBXProject "Tinnisounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53A2E43818C9172C0084CC23;
+			productRefGroup = 53A2E44218C9172C0084CC23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53A2E44018C9172C0084CC23 /* Tinnisounds */,
+				53A2E46118C9172C0084CC23 /* TinnisoundsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53A2E43F18C9172C0084CC23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A2E48618CA13160084CC23 /* antony_creek.mp3 in Resources */,
+				53A2E45D18C9172C0084CC23 /* Images.xcassets in Resources */,
+				53A2E48718CA13160084CC23 /* fireplace.mp3 in Resources */,
+				53A2E48118CA04360084CC23 /* whiteNoise.mp3 in Resources */,
+				53A2E47F18C9FB830084CC23 /* cafe_brazil_walla.mp3 in Resources */,
+				53A2E44F18C9172C0084CC23 /* InfoPlist.strings in Resources */,
+				53A2E47B18C91DBB0084CC23 /* Thunderstorm_with_heavy_Rain.mp3 in Resources */,
+				53A2E48318CA11480084CC23 /* henne_beach.mp3 in Resources */,
+				53A2E45818C9172C0084CC23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A2E46018C9172C0084CC23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A2E46E18C9172C0084CC23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53A2E43D18C9172C0084CC23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A2E45518C9172C0084CC23 /* TNSAppDelegate.m in Sources */,
+				53A2E45B18C9172C0084CC23 /* TNSViewController.m in Sources */,
+				53A2E45118C9172C0084CC23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A2E45E18C9172C0084CC23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A2E47018C9172C0084CC23 /* TinnisoundsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53A2E46818C9172C0084CC23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53A2E44018C9172C0084CC23 /* Tinnisounds */;
+			targetProxy = 53A2E46718C9172C0084CC23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53A2E44D18C9172C0084CC23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A2E44E18C9172C0084CC23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53A2E45618C9172C0084CC23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A2E45718C9172C0084CC23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53A2E46C18C9172C0084CC23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A2E46D18C9172C0084CC23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53A2E47118C9172C0084CC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53A2E47218C9172C0084CC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53A2E47418C9172C0084CC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tinnisounds/Tinnisounds-Prefix.pch";
+				INFOPLIST_FILE = "Tinnisounds/Tinnisounds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53A2E47518C9172C0084CC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tinnisounds/Tinnisounds-Prefix.pch";
+				INFOPLIST_FILE = "Tinnisounds/Tinnisounds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		53A2E47718C9172C0084CC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tinnisounds.app/Tinnisounds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tinnisounds/Tinnisounds-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TinnisoundsTests/TinnisoundsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53A2E47818C9172C0084CC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tinnisounds.app/Tinnisounds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tinnisounds/Tinnisounds-Prefix.pch";
+				INFOPLIST_FILE = "TinnisoundsTests/TinnisoundsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53A2E43C18C9172C0084CC23 /* Build configuration list for PBXProject "Tinnisounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A2E47118C9172C0084CC23 /* Debug */,
+				53A2E47218C9172C0084CC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A2E47318C9172C0084CC23 /* Build configuration list for PBXNativeTarget "Tinnisounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A2E47418C9172C0084CC23 /* Debug */,
+				53A2E47518C9172C0084CC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A2E47618C9172C0084CC23 /* Build configuration list for PBXNativeTarget "TinnisoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A2E47718C9172C0084CC23 /* Debug */,
+				53A2E47818C9172C0084CC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53A2E43918C9172C0084CC23 /* Project object */;
+}

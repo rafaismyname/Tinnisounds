@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="TNSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oib-EU-I8e"/>
+                        <viewControllerLayoutGuide type="bottom" id="L6V-v0-MuZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="3000" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHu-n1-D0Q">
+                                <rect key="frame" x="20" y="83" width="109" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Rain">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Rain Selected"/>
+                                <state key="highlighted" image="Rain Selected"/>
+                                <connections>
+                                    <action selector="didTapSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hPd-cT-3h0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qO9-kj-nPk">
+                                <rect key="frame" x="182" y="83" width="118" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Chat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Chat Selected"/>
+                                <state key="highlighted" image="Chat Selected"/>
+                                <connections>
+                                    <action selector="didTapSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ig7-Tp-HVl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZc-Qg-t0O">
+                                <rect key="frame" x="20" y="210" width="118" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Sound Wave">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Sound Wave Selected"/>
+                                <state key="highlighted" image="Sound Wave Selected"/>
+                                <connections>
+                                    <action selector="didTapSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LPw-8p-jLR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpZ-vo-Le8">
+                                <rect key="frame" x="177" y="200" width="118" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Beach">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Beach Selected"/>
+                                <state key="highlighted" image="Beach Selected"/>
+                                <connections>
+                                    <action selector="didTapSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bBX-S4-3Sc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHd-si-egx">
+                                <rect key="frame" x="-8" y="300" width="165" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Fireplace">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Fireplace Selected"/>
+                                <state key="highlighted" image="Fireplace Selected"/>
+                                <connections>
+                                    <action selector="didTapSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZTY-nK-oq1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3005" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aL6-m6-gyd">
+                                <rect key="frame" x="177" y="324" width="118" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Creek">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Creek Selected"/>
+                                <state key="highlighted" image="Creek Selected"/>
+                                <connections>
+                                    <action selector="didTapSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cmn-ai-gYO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4N-Dk-Mkc">
+                                <rect key="frame" x="0.0" y="37" width="320" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <state key="normal" title="Tinnisounds">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapTitle:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lla-XU-nM5"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" alpha="0.59999999999999964" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="hTM-ha-31h">
+                                <rect key="frame" x="141" y="450" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMo-zk-aqA">
+                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="37u-1R-MBS"/>
+                                </connections>
+                            </adBannerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.83137254901960778" blue="0.58823529411764708" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="colorPage" destination="hTM-ha-31h" id="OkM-XC-wN6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Beach" width="256" height="256"/>
+        <image name="Beach Selected" width="256" height="256"/>
+        <image name="Chat" width="256" height="256"/>
+        <image name="Chat Selected" width="256" height="256"/>
+        <image name="Creek" width="256" height="256"/>
+        <image name="Creek Selected" width="256" height="256"/>
+        <image name="Fireplace" width="256" height="256"/>
+        <image name="Fireplace Selected" width="256" height="256"/>
+        <image name="Rain" width="256" height="256"/>
+        <image name="Rain Selected" width="256" height="256"/>
+        <image name="Sound Wave" width="256" height="256"/>
+        <image name="Sound Wave Selected" width="256" height="256"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
