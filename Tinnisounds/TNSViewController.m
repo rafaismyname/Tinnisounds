@@ -113,7 +113,7 @@
 
 // Display an about message when tap the app title
 - (IBAction)didTapTitle:(UIButton *)sender {
-    NSString *aboutMessage = @"Sounds: freesound.org\nIcons: flaticon.com\nApp Dev: rafaismy.name\nSpecial thanks to: David Spiro";
+    NSString *aboutMessage = @"Sounds: freesound.org\nIcons: flaticon.com\nApp Dev: rafaismy.name";
     UIAlertView *about = [[UIAlertView alloc] initWithTitle:@"About"
                                                     message:aboutMessage
                                                    delegate:nil

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2136DDEE-7845-4B87-8DB2-9111CC65E9CE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tinnisounds</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E48D16F2-1145-4058-8F37-F9C1922E0528</key>
+		<string>ssh://bitbucket.org/rafaelamorim/tinnisounds.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tinnisounds.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E48D16F2-1145-4058-8F37-F9C1922E0528</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/rafaelamorim/tinnisounds.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E48D16F2-1145-4058-8F37-F9C1922E0528</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E48D16F2-1145-4058-8F37-F9C1922E0528</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tinnisounds</string>
+		</dict>
+	</array>
+</dict>
+</plist>
